@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bandar aka Rirzon</title>
+  <style>
+    body, html {
+      margin: 0;
+      height: 100%;
+      font-family: "Segoe UI", Tahoma, sans-serif;
+      background: #0d0d0d;
+      color: #f2f2f2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    /* البطاقة */
+    .card {
+      background: rgba(20,20,20,0.85);
+      padding: 2rem 3rem;
+      border-radius: 15px;
+      box-shadow: 0 0 25px rgba(0,0,0,0.6);
+      text-align: center;
+    }
+
+    img {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 1rem;
+      border: 3px solid #333;
+      box-shadow: 0 0 20px rgba(0, 173, 181, 0.8);
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin: 0;
+      font-weight: 700;
+      letter-spacing: 1px;
+    }
+    h2 {
+      margin: 0.3rem 0 1rem;
+      font-size: 1rem;
+      font-weight: 400;
+      color: #aaa;
+      letter-spacing: 2px;
+    }
+
+    .line {
+      width: 80px;
+      height: 3px;
+      background: linear-gradient(90deg, #00adb5, #555);
+      margin: 1rem auto;
+    }
+
+    .location {
+      font-size: 0.9rem;
+      color: #888;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      margin-top: 0.5rem;
+    }
+
+    /* الجملة */
+    .coming {
+      margin-top: 1.5rem;
+      font-size: 0.9rem;
+      color: #777;
+      font-style: italic;
+    }
+
+    /* Footer */
+    footer {
+      position: fixed;
+      bottom: 15px;
+      width: 100%;
+      text-align: center;
+      font-size: 0.85rem;
+      color: #888;
+      letter-spacing: 1px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="PixleART.png" alt="Profile Photo">
+    <h1>Bandar</h1>
+    <h2>aka Rirzon</h2>
+    <div class="line"></div>
+    <div class="location">
+      <span>📍</span> Tabuk, Saudi Arabia
+    </div>
+    <div class="coming">More coming soon…</div>
+  </div>
+
+  <footer>
+    Built by Rirzon
+  </footer>
+</body>
+</html>
