@@ -9,6 +9,9 @@
   <link rel="icon" type="image/png" href="favicon.png">
 
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
   <style>
     body {
       margin: 0;
@@ -41,7 +44,7 @@
       transform: scale(1.04);
     }
 
-    h1, p, .divider {
+    h1, p, .divider, .social-icons {
       opacity: 0;
       transform: translateY(20px);
       animation: fadeInUp 1.5s ease forwards;
@@ -85,6 +88,25 @@
       animation-delay: 0.7s;
     }
 
+    /* Social Icons */
+    .social-icons {
+      display: flex;
+      gap: 25px;
+      margin-top: 15px;
+      animation-delay: 0.9s;
+    }
+
+    .social-icons a {
+      color: #aaa;
+      font-size: 24px;
+      transition: color 0.3s ease, transform 0.3s ease;
+    }
+
+    .social-icons a:hover {
+      color: #fff;
+      transform: scale(1.15);
+    }
+
     footer {
       position: absolute;
       bottom: 20px;
@@ -122,6 +144,14 @@
     Tabuk, Saudi Arabia
   </p>
   <div class="divider"></div>
+
+  <!-- Social Icons -->
+  <div class="social-icons">
+    <a href="https://discord.com/users/565488410341539840" target="_blank"><i class="fab fa-discord"></i></a>
+    <a href="https://youtube.com/@Rirzon" target="_blank"><i class="fab fa-youtube"></i></a>
+    <a href="https://github.com/Rirzon" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://reddit.com/u/Rirzon" target="_blank"><i class="fab fa-reddit"></i></a>
+  </div>
 
   <footer>
     Built by Rirzon
