@@ -2,4 +2,4 @@
 
 ![Preview](Screenshot.png)
 
-👉 [Visit my website](https://rirzon.com)
+👉 [Visit my page](https://rirzon.com)
