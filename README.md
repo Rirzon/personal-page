@@ -1,5 +1,5 @@
 # My Personal Page
 
-![Preview](Screenshot.png)
+![Preview](screenshot.png)
 
 👉 [Visit my page](https://rirzon.com)
